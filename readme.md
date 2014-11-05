@@ -2,8 +2,4 @@
 
 This is my first project
 
-* This
-* is
-* a
-* list
-
+# I don't need this stinking list!
