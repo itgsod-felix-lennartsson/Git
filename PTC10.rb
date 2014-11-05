@@ -2,7 +2,7 @@
 
 # Variables:
 
-c = 0
+$c = 0
 
 # Functions:
 
@@ -17,19 +17,18 @@ def getIn
 end
 
 def calcIn
-  c = ($a**2 + $b**2)**0.5
-return c
+  $c = ($a**2 + $b**2)**0.5
 end
 
-def doOut(c)
-  puts "The hypothenuse is #{c}."
+def doOut
+  puts "The hypothenuse is #{$c}."
 end
 
 # Runcode:
 
 getIn
 calcIn
-doOut(c)
+doOut
 
 
 
